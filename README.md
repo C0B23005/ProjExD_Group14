@@ -28,6 +28,12 @@
 * 制限時間設定
 * 弾避け機能
 
+skill機能
+時間経過によるバリアと無敵機能の有効化:
+elapsed_timeによって30秒でバリア、60秒で無敵が有効になる
+bird.has_barrierとbird.is_invincibleでバリアと無敵を管理している。
+バリアと無敵の視覚エフェクト:
+activate_barrierは青色、activate_invincibilityは金色の円で視覚的にエフェクトを追加している。
 
 ### ToDo
 - 
